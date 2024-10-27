@@ -45,7 +45,7 @@ load_dotenv()
 # api_key = "952c8164-6ad6-44c2-b9c1-236a20a63eb7"
 openai_api_key = "ssk-proj-1cMQ0pDQ0hUsCzTrLP2r6rjE-A2lpNlWwxTBxluZ0r0ujfCxTXx3Hs8j2-RFGB5fJggzmgn4WpT3BlbkFJU1VXe03RPf-F1mxmN0CQblIO-EYtAEcGSwJC0KX11cI0GBVzA3Ah1j8IGUSuqNBWM600tx6cwA"
 pinecone_api_key= '952c8164-6ad6-44c2-b9c1-236a20a63eb7'
-pc = Pinecone(api_key= pinecone_api_key )
+pc = Pinecone(api_key= os.getenv("PINECONE_API_KEY") )
 
 
 api_key = "gbJWBLPOrzwjFAM4pTamxSmSnRmCoC3W3VTSVdpM"
