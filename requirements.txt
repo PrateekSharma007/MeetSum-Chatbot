@@ -1,4 +1,3 @@
-dotenv
 streamlit
 flask
 PyPDF2
@@ -9,7 +8,5 @@ langchain_openai
 langchain_pinecone
 langchain_cohere
 pinecone
-nest_asyncio 
 llama_parse
-joblib
 nltk
