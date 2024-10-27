@@ -38,7 +38,7 @@ from langchain_community.document_loaders import UnstructuredMarkdownLoader
 import nltk 
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
-
+from nltk.stem import PorterStemmer 
 
 
 load_dotenv()
@@ -98,7 +98,7 @@ def create_pkl_string(filename):
 
 
 lemmatizer = WordNetLemmatizer()
-from nltk.stem import PorterStemmer 
+
 porter = PorterStemmer()
 import string
 def transform_text(text) : 
